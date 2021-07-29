@@ -23,32 +23,28 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="fun fact 1!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hgq-3T-s4q">
-                                <rect key="frame" x="52" y="547" width="287" height="57"/>
+                                <rect key="frame" x="52" y="517" width="287" height="57"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.7250953913" green="0.51190078260000005" blue="0.64707708360000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="fun fact 2!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YkX-kb-iBe">
-                                <rect key="frame" x="52" y="625" width="287" height="58"/>
+                                <rect key="frame" x="52" y="582" width="287" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.7250953913" green="0.51190078260000005" blue="0.64707708360000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="fun fact 3!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HvF-8K-2F5">
-                                <rect key="frame" x="52" y="704" width="287" height="58"/>
+                                <rect key="frame" x="52" y="648" width="287" height="58"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" red="0.7250953913" green="0.51190078260000005" blue="0.64707708360000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="92EA443F-893C-4942-AF55-A623ADB19247" translatesAutoresizingMaskIntoConstraints="NO" id="MXy-bk-j3H">
-                                <rect key="frame" x="52" y="87" width="287" height="382"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sU8-UK-l3O">
-                                <rect key="frame" x="125" y="488" width="167" height="40"/>
+                                <rect key="frame" x="52" y="477" width="179" height="32"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="23"/>
                                 <state key="normal" title="reveal fun facts...">
@@ -58,6 +54,28 @@
                                     <action selector="revealFacts:" destination="BYZ-38-t0r" eventType="touchUpInside" id="thc-sN-geX"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="92EA443F-893C-4942-AF55-A623ADB19247" translatesAutoresizingMaskIntoConstraints="NO" id="MXy-bk-j3H">
+                                <rect key="frame" x="52" y="87" width="287" height="382"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l0x-KX-gEb">
+                                <rect key="frame" x="52" y="714" width="196" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="reveal favorite songs...">
+                                    <color key="titleColor" red="0.52518481019999996" green="0.68053168060000002" blue="0.46271514889999998" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="randomFavSong:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NVN-e8-Ptf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="random favorite song!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uno-zm-kPc">
+                                <rect key="frame" x="172" y="758" width="167" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.7250953913" green="0.51190078260000005" blue="0.64707708360000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" red="0.978030961813386" green="0.96312023821060522" blue="0.9734374216781746" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -67,6 +85,7 @@
                         <outlet property="fact1" destination="Hgq-3T-s4q" id="8i3-79-HL9"/>
                         <outlet property="fact2" destination="YkX-kb-iBe" id="GZu-1l-HTB"/>
                         <outlet property="fact3" destination="HvF-8K-2F5" id="iAB-2p-QuB"/>
+                        <outlet property="favSong" destination="Uno-zm-kPc" id="pNo-hS-hpF"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
