@@ -35,8 +35,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Pf-8K-Nbf">
-                                <rect key="frame" x="42" y="644" width="109" height="30"/>
+                                <rect key="frame" x="32" y="641" width="130" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <state key="normal" title="South of France">
                                     <color key="titleColor" red="0.54810212079999998" green="0.5185580112" blue="0.46798256069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -44,19 +45,10 @@
                                     <action selector="A:" destination="BYZ-38-t0r" eventType="touchUpInside" id="87r-Xd-wrD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38O-HS-tzm">
-                                <rect key="frame" x="79" y="387" width="34" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Paris">
-                                    <color key="titleColor" red="0.54810212079696363" green="0.51855801118855216" blue="0.46798256072293587" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="B:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GvL-H4-xp9"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z6A-F1-uHe">
-                                <rect key="frame" x="241" y="387" width="97" height="30"/>
+                                <rect key="frame" x="225" y="390" width="118" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <state key="normal" title="New York City">
                                     <color key="titleColor" red="0.54810212079999998" green="0.5185580112" blue="0.46798256069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -68,12 +60,13 @@
                                 <rect key="frame" x="134" y="682" width="122" height="40"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.38920176400000001" green="0.3725695128" blue="0.33615982160000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uob-YR-2id">
-                                <rect key="frame" x="251" y="638" width="64" height="41"/>
+                                <rect key="frame" x="238" y="641" width="92" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <state key="normal" title="Mustique">
                                     <color key="titleColor" red="0.54810212079999998" green="0.5185580112" blue="0.46798256069999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -97,6 +90,17 @@
                                 <rect key="frame" x="191" y="260" width="187" height="125"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="38O-HS-tzm">
+                                <rect key="frame" x="68" y="390" width="59" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <state key="normal" title="Paris">
+                                    <color key="titleColor" red="0.54810212079696363" green="0.51855801118855216" blue="0.46798256072293587" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="B:" destination="BYZ-38-t0r" eventType="touchUpInside" id="GvL-H4-xp9"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -136,8 +140,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vY9-E7-2Qi">
-                                <rect key="frame" x="73" y="244" width="71" height="30"/>
+                                <rect key="frame" x="61" y="244" width="95" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <state key="normal" title="Lululemon">
                                     <color key="titleColor" red="0.4937744141" green="0.47115361690000002" blue="0.42352628710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -145,19 +150,10 @@
                                     <action selector="A:" destination="guv-9D-6lM" eventType="touchUpInside" id="Aj1-bt-0hI"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMD-G4-MIX">
-                                <rect key="frame" x="266" y="528" width="54" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Revolve">
-                                    <color key="titleColor" red="0.4937744141" green="0.47115361690000002" blue="0.42352628710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="C:" destination="guv-9D-6lM" eventType="touchUpInside" id="FUG-Hi-90y"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zka-xK-pPa">
-                                <rect key="frame" x="79" y="528" width="59" height="41"/>
+                                <rect key="frame" x="74" y="528" width="68" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <state key="normal" title="Aritzia">
                                     <color key="titleColor" red="0.4937744141" green="0.47115361690000002" blue="0.42352628710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -166,8 +162,9 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="toq-zw-Lai">
-                                <rect key="frame" x="277" y="244" width="32" height="30"/>
+                                <rect key="frame" x="267" y="244" width="52" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <state key="normal" title="Zara">
                                     <color key="titleColor" red="0.4937744141" green="0.47115361690000002" blue="0.42352628710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -216,9 +213,20 @@
                                 <rect key="frame" x="120" y="581" width="151" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.38920176400000001" green="0.3725695128" blue="0.33615982160000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XMD-G4-MIX">
+                                <rect key="frame" x="256" y="528" width="74" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <state key="normal" title="Revolve">
+                                    <color key="titleColor" red="0.4937744141" green="0.47115361690000002" blue="0.42352628710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="C:" destination="guv-9D-6lM" eventType="touchUpInside" id="FUG-Hi-90y"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="m7h-sX-eey"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -248,8 +256,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OcF-kS-RQP">
-                                <rect key="frame" x="58" y="257" width="84" height="30"/>
+                                <rect key="frame" x="52" y="257" width="102" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <state key="normal" title="Harry Potter">
                                     <color key="titleColor" red="0.4937744141" green="0.47115361690000002" blue="0.42352628710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -260,21 +269,12 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Cr-jf-wlb">
                                 <rect key="frame" x="209" y="255" width="139" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <state key="normal" title="Lord of the Rings">
                                     <color key="titleColor" red="0.4937744141" green="0.47115361690000002" blue="0.42352628710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                                 <connections>
                                     <action selector="B:" destination="FfZ-KK-9DM" eventType="touchUpInside" id="FMk-XJ-cju"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icj-7E-CNQ">
-                                <rect key="frame" x="52" y="618" width="100" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Percy Jackson">
-                                    <color key="titleColor" red="0.4937744141" green="0.47115361690000002" blue="0.42352628710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                </state>
-                                <connections>
-                                    <action selector="C:" destination="FfZ-KK-9DM" eventType="touchUpInside" id="9YI-92-2PS"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ae6-NP-9Iv">
@@ -287,6 +287,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MhQ-il-rEs">
                                 <rect key="frame" x="209" y="613" width="156" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
                                 <state key="normal" title="The Hunger Games">
                                     <color key="titleColor" red="0.4937744141" green="0.47115361690000002" blue="0.42352628710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
@@ -321,9 +322,20 @@
                                 <rect key="frame" x="119" y="662" width="152" height="55"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="36"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.38920176400000001" green="0.3725695128" blue="0.33615982160000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="icj-7E-CNQ">
+                                <rect key="frame" x="43" y="613" width="115" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <state key="normal" title="Percy Jackson">
+                                    <color key="titleColor" red="0.4937744141" green="0.47115361690000002" blue="0.42352628710000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <action selector="C:" destination="FfZ-KK-9DM" eventType="touchUpInside" id="9YI-92-2PS"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="9tG-XT-yg8"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -353,6 +365,9 @@
         <image name="il_fullxfull.1532760851_6ldz" width="3000" height="2288"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
