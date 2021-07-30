@@ -8,6 +8,9 @@
 import UIKit
 
 class SecondViewController: UIViewController {
+    
+    @IBOutlet weak var answer2: UILabel!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -15,6 +18,20 @@ class SecondViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+//FOR QUESTION 2:
+    @IBAction func A(_ sender: Any) {
+        answer2.text = "FALSE!"
+    }
+    @IBAction func B(_ sender: Any) {
+        answer2.text = "FALSE!"
+    }
+    @IBAction func C(_ sender: Any) {
+        answer2.text = "FALSE!"
+    }
+    @IBAction func D(_ sender: Any) {
+        answer2.text = "TRUE!"
+        
+    }
 
     /*
     // MARK: - Navigation

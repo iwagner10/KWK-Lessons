@@ -8,14 +8,27 @@
 import UIKit
 
 class ThirdViewController: UIViewController {
-
+    
+    @IBOutlet weak var answer3: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
-
+    @IBAction func A(_ sender: Any) {
+        answer3.text = "TRUE!"
+    }
+    @IBAction func B(_ sender: Any) {
+        answer3.text = "FALSE!"
+    }
+    @IBAction func C(_ sender: Any) {
+        answer3.text = "FALSE!"
+    }
+    @IBAction func D(_ sender: Any) {
+        answer3.text = "FALSE"
+    }
     /*
     // MARK: - Navigation
 
